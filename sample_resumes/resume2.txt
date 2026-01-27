@@ -1,0 +1,16 @@
+Jane Smith
+Data Scientist
+
+Summary:
+Data Scientist proficient in machine learning and data analysis.
+
+Skills:
+Python, Pandas, NumPy, Scikit-Learn, TensorFlow, SQL, Tableau.
+
+Experience:
+Data Analyst at Data Inc (2019-2022)
+- Analyzed large datasets using Python and SQL.
+- Built predictive models for customer churn.
+
+Education:
+M.Sc in Data Science, City University

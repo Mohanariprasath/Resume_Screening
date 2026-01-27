@@ -1,0 +1,124 @@
+/* Additional animations and utilities */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(99, 102, 241, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.8), 0 0 30px rgba(99, 102, 241, 0.6); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Simple Hover Effects */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.hover-glow {
+  transition: all 0.3s ease;
+}
+.hover-glow:hover {
+  box-shadow: 0 0 30px rgba(99, 102, 241, 0.4);
+  border-color: rgba(99, 102, 241, 0.6);
+}
+
+.hover-scale {
+  transition: transform 0.2s ease;
+}
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-bounce {
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.hover-bounce:hover {
+  transform: scale(1.1);
+}
+
+.hover-slide {
+  transition: transform 0.3s ease;
+}
+.hover-slide:hover {
+  transform: translateX(10px);
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+.pulsing {
+  animation: pulse 2s infinite;
+}
+
+/* Card Hover Effects */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Hover Effects */
+.text-hover {
+  position: relative;
+  transition: color 0.3s ease;
+}
+.text-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  transition: width 0.3s ease;
+}
+.text-hover:hover::after {
+  width: 100%;
+}
+.text-hover:hover {
+  color: var(--primary);
+}
+
+/* Icon Hover Effects */
+.icon-hover {
+  transition: all 0.3s ease;
+}
+.icon-hover:hover {
+  transform: rotate(360deg) scale(1.2);
+  color: var(--primary);
+}
+
+/* Button Interactive Effects */
+.btn-interactive {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.btn-interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+}
+
+/* Remove default Vite styles - we're using our own design system */

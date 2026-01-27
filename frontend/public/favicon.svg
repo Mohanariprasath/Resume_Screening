@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" rx="40" fill="url(#paint0_linear)"/>
+<path d="M65 55H135C140.523 55 145 59.4772 145 65V135C145 140.523 140.523 145 135 145H65C59.4772 145 55 140.523 55 135V65C55 59.4772 59.4772 55 65 55Z" stroke="white" stroke-width="10"/>
+<path d="M80 85H120" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<path d="M80 105H110" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<circle cx="125" cy="125" r="30" fill="url(#paint1_linear)" stroke="white" stroke-width="6"/>
+<path d="M115 125L122 132L138 116" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8B5CF6"/>
+<stop offset="1" stop-color="#06B6D4"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="95" y1="95" x2="155" y2="155" gradientUnits="userSpaceOnUse">
+<stop stop-color="#06B6D4"/>
+<stop offset="1" stop-color="#8B5CF6"/>
+</linearGradient>
+</defs>
+</svg>

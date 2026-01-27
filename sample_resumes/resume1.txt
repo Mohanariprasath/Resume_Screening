@@ -1,0 +1,16 @@
+John Doe
+Software Engineer
+
+Summary:
+Experienced software engineer with a strong background in Python, Java, and Cloud Computing.
+
+Skills:
+Python, Java, AWS, Docker, React, SQL, Git, Linux.
+
+Experience:
+Senior Developer at Tech Corp (2020-Present)
+- Developed scalable microservices using Python and Flask.
+- Deployed applications on AWS using Docker and Kubernetes.
+
+Education:
+B.Sc in Computer Science, University of Technology
