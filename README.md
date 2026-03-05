@@ -6,18 +6,18 @@ Recruitment Assistant is a state-of-the-art **Resume Screening & Skill Matching 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- **🚀 Bulk Resume Parsing**: Process multiple resumes simultaneously in PDF, DOCX, and TXT formats.
-- **🧠 AI-Powered Match Scoring**: Uses `Sentence Transformers` and `Cosine Similarity` to calculate precise match percentages.
-- **🔍 Skill Gap Analysis**: Automatically identifies matched skills and highlights missing requirements for each candidate.
-- **📊 Interactive Analytics**: Visualize your talent pool with dynamic charts and deep insights into candidate distribution.
-- **💎 Premium UI/UX**: A sleek, modern dashboard built with React 19, featuring smooth transitions via Framer Motion and GSAP.
-- **⚡ Real-time Processing**: Fast, asynchronous processing powered by FastAPI.
+- ** Bulk Resume Parsing**: Process multiple resumes simultaneously in PDF, DOCX, and TXT formats.
+- ** AI-Powered Match Scoring**: Uses `Sentence Transformers` and `Cosine Similarity` to calculate precise match percentages.
+- ** Skill Gap Analysis**: Automatically identifies matched skills and highlights missing requirements for each candidate.
+- ** Interactive Analytics**: Visualize your talent pool with dynamic charts and deep insights into candidate distribution.
+- ** Premium UI/UX**: A sleek, modern dashboard built with React 19, featuring smooth transitions via Framer Motion and GSAP.
+- ** Real-time Processing**: Fast, asynchronous processing powered by FastAPI.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Framework**: FastAPI (Python)
@@ -35,7 +35,7 @@ Recruitment Assistant is a state-of-the-art **Resume Screening & Skill Matching 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9+ 🐍
@@ -89,7 +89,7 @@ cd Resume-Screening
    ```
    *The frontend will run on `http://localhost:5173`.*
 
-### ☁️ Cloud Deployment (Backend)
+###  Cloud Deployment (Backend)
 Since this project uses AI models, we recommend **Hugging Face Spaces** (Docker) for hosting the backend due to its generous 16GB RAM free tier.
 
 1. **Create a Space**: Go to [Hugging Face Spaces](https://huggingface.co/spaces) and create a new Space.
@@ -100,7 +100,7 @@ Since this project uses AI models, we recommend **Hugging Face Spaces** (Docker)
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Resume_Screening/
@@ -119,13 +119,13 @@ Resume_Screening/
 
 ---
 
-## 📄 License
+##  License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
-**Human written. Thinked by [Mohanariprasath](https://github.com/Mohanariprasath)**
+
