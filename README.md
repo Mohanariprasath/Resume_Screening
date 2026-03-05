@@ -8,12 +8,12 @@ Recruitment Assistant is a state-of-the-art **Resume Screening & Skill Matching 
 
 ##  Key Features
 
-- ** Bulk Resume Parsing**: Process multiple resumes simultaneously in PDF, DOCX, and TXT formats.
-- ** AI-Powered Match Scoring**: Uses `Sentence Transformers` and `Cosine Similarity` to calculate precise match percentages.
-- ** Skill Gap Analysis**: Automatically identifies matched skills and highlights missing requirements for each candidate.
-- ** Interactive Analytics**: Visualize your talent pool with dynamic charts and deep insights into candidate distribution.
-- ** Premium UI/UX**: A sleek, modern dashboard built with React 19, featuring smooth transitions via Framer Motion and GSAP.
-- ** Real-time Processing**: Fast, asynchronous processing powered by FastAPI.
+-  Bulk Resume Parsing: Process multiple resumes simultaneously in PDF, DOCX, and TXT formats.
+-  AI-Powered Match Scoring: Uses `Sentence Transformers` and `Cosine Similarity` to calculate precise match percentages.
+-  Skill Gap Analysis: Automatically identifies matched skills and highlights missing requirements for each candidate.
+-  Interactive Analytics: Visualize your talent pool with dynamic charts and deep insights into candidate distribution.
+-  Premium UI/UX: A sleek, modern dashboard built with React 19, featuring smooth transitions via Framer Motion and GSAP.
+-  Real-time Processing: Fast, asynchronous processing powered by FastAPI.
 
 ---
 
